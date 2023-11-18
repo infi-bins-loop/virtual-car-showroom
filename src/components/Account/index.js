@@ -42,14 +42,6 @@ const Account = () =>{
                         <h2><a href="/kiaaccount">Dashboard</a></h2>
                     </div>
                 </div>
-                <div className="row" >
-                    <div className="main">
-                        <HistoryIcon className="logo"/>
-                    </div>
-                    <div className="text">
-                        <h2><a>Order History</a></h2>
-                    </div>
-                </div>
                 <div className="row" onClick={SignOut}>
                     <div className="main">
                         <LogoutIcon className="logo"/>
