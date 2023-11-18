@@ -25,7 +25,7 @@ const Header = () => {
             </Content>
             <Content1>
                 <Link to='/login' className='none'>Account</Link>
-                <a href='#' onClick={()=> setOpen(true)} >Discover</a>
+                <a href='#' onClick={()=> setOpen(true)} >Book</a>
             </Content1>
             {open && 
             <div className='top'>
