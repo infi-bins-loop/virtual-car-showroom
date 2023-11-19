@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { Wrapper,Content } from "./footer.syle";
-
+import { Link } from 'react-router-dom';
 const Footer = ({bottom}) =>{
 
     return(
@@ -22,15 +22,17 @@ const Footer = ({bottom}) =>{
                     <div className="links">
                         <div>
                             <h4 style={{textDecoration: 'underline',letterSpacing: 1, marginBottom: 10}}>Links</h4>
-                            <a href="" style={{textDecoration: 'none'}}>About</a><br />
-                            <a href="" style={{textDecoration: 'none'}}>Book test drive</a>
+                            <a href="/vrshowroom" style={{textDecoration: 'none'}}>About</a><br />
+                            <a href="" style={{textDecoration: 'none'}}>Book test drive</a><br />
+                            <a href="" style={{textDecoration: 'none'}}>Book online</a><br />
+                            <a href="" style={{textDecoration: 'none'}}>Contact</a>
                         </div>
                         <div style={{marginLeft: 50}}>
                         <h4 style={{textDecoration: 'underline',letterSpacing: 1, marginBottom: 10}}>Cars</h4>
-                            <p>Seltos</p>
-                            <p>Carens</p>
-                            <p>Sonet</p>
-                            <p>EV6</p>
+                            <Link to='/seltos' style={{textDecoration: 'none'}}>Seltos</Link><br />
+                            <Link to='/carens'style={{textDecoration: 'none'}}>Carens</Link><br />
+                            <Link to='/sonet'style={{textDecoration: 'none'}}>Sonet</Link><br />
+                            <Link to='/ev6'style={{textDecoration: 'none'}}>EV6</Link>
                         </div>
                         <div style={{marginLeft: 60}}>
                         <h4 style={{textDecoration: 'underline',letterSpacing: 1, marginBottom: 10}}>Legal</h4>

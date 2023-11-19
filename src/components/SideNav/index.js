@@ -13,10 +13,10 @@ function SideNav({ show }) {
                 <Link to='/sonet'><li className='half'>SONET</li></Link>
                 <Link to='/ev6'><li className='half'>EV6</li></Link>
                 <Link to='/vrshowroom'><li className='half'>VR SHOWROOM</li></Link>
-                <li>About</li>
                 <li>Book test drive</li>
                 <Link to='/login'><li className='half'>Account</li></Link>
-                <li>Developer Team</li>
+                <li>Book online</li>
+                <li>Contact</li>
             </Content>
         </Wrapper>
     )

@@ -6,9 +6,6 @@ import Header from "../Header";
 
 // Icons
 import HomeIcon from '@mui/icons-material/Home';
-import PaymentIcon from '@mui/icons-material/Payment';
-import BoltIcon from '@mui/icons-material/Bolt';
-import AllInboxIcon from '@mui/icons-material/AllInbox';
 import HistoryIcon from '@mui/icons-material/History';
 import LogoutIcon from '@mui/icons-material/Logout';
 
@@ -42,39 +39,7 @@ const Account = () =>{
                         <HomeIcon className="logo" />
                     </div>
                     <div className="text high" >
-                        <h2><a href="#">Dashboard</a></h2>
-                    </div>
-                </div>
-                <div className="row" >
-                    <div className="main">
-                        <PaymentIcon className="logo"/>
-                    </div>
-                    <div className="text">
-                        <h2><a>Payment Method</a></h2>
-                    </div>
-                </div>
-                <div className="row" >
-                    <div className="main">
-                        <BoltIcon className="logo"/>
-                    </div>
-                    <div className="text">
-                        <h2><a>Charging</a></h2>
-                    </div>
-                </div>
-                <div className="row" >
-                    <div className="main">
-                        <AllInboxIcon className="logo"/>
-                    </div>
-                    <div className="text">
-                        <h2><a>Loot Box</a></h2>
-                    </div>
-                </div>
-                <div className="row" >
-                    <div className="main">
-                        <HistoryIcon className="logo"/>
-                    </div>
-                    <div className="text">
-                        <h2><a>Order History</a></h2>
+                        <h2><a href="/kiaaccount">Dashboard</a></h2>
                     </div>
                 </div>
                 <div className="row" onClick={SignOut}>
