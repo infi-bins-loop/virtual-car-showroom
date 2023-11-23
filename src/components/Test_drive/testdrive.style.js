@@ -44,7 +44,7 @@ align-items: center;
     margin-bottom: 0.5rem;
 }
 .btn{
-    width: 15vw;
+    width: 15rem;
     justify-content: center;
     font-weight: 600;
     margin-bottom: 2 rem;
