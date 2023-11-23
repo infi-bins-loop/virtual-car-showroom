@@ -36,7 +36,7 @@ const Signup = () =>{
                     displayName: fname,
                 }))
             })
-            navigate('/teslaaccount')
+            navigate('/kiaaccount')
         }).catch((error) =>  {
             error.message.replace(".", "");
             alert(error.message + " (" + error.code + ")");
