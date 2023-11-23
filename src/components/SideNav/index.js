@@ -13,10 +13,9 @@ function SideNav({ show }) {
                 <Link to='/sonet'><li className='half'>SONET</li></Link>
                 <Link to='/ev6'><li className='half'>EV6</li></Link>
                 <Link to='/vrshowroom'><li className='half'>VR SHOWROOM</li></Link>
-                <li>Book test drive</li>
+                <Link to='/testdrive'><li>Book test drive</li></Link>
+                <Link to='/bookonline'><li>Book online</li></Link>
                 <Link to='/login'><li className='half'>Account</li></Link>
-                <li>Book online</li>
-                <li>Contact</li>
             </Content>
         </Wrapper>
     )

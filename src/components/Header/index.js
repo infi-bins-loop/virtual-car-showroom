@@ -17,15 +17,15 @@ const Header = () => {
             </Link>
             </div>
             <Content>
-                <Link to='/seltos'>SELTOS</Link>
-                <Link to='/carens'>CARENS</Link>
-                <Link to='/sonet'>SONET</Link>
-                <Link to='/ev6'>EV6</Link>
-                <Link to='/vrshowroom'>VR Showroom</Link>
+                <Link to='/seltos' style={{textDecoration:'none',color:'black'}}>SELTOS</Link>
+                <Link to='/carens'style={{textDecoration:'none',color:'black'}}>CARENS</Link>
+                <Link to='/sonet'style={{textDecoration:'none',color:'black'}}>SONET</Link>
+                <Link to='/ev6'style={{textDecoration:'none',color:'black'}}>EV6</Link>
+                <Link to='/vrshowroom'style={{textDecoration:'none',color:'black'}}>VR Showroom</Link>
             </Content>
             <Content1>
-                <Link to='/login' className='none'>Account</Link>
-                <a href='#' onClick={()=> setOpen(true)} >Book</a>
+                <Link to='/login' className='none'style={{textDecoration:'none',color:'black'}}>Account</Link>
+                <a href='#' onClick={()=> setOpen(true)} style={{textDecoration:'none',color:'black'}}>Book</a>
             </Content1>
             {open && 
             <div className='top'>

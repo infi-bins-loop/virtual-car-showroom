@@ -12,6 +12,8 @@ import SONET from './components/Sonet';
 import EV6 from './components/EV6';
 import Login from './components/Login';
 import VRSHOWROOM from './components/VR Showroom';
+import Testdrive from './components/Test_drive';
+import Bookonline from './components/Book_online';
 import Signup from './components/Signup';
 import Account from './components/Account';
 
@@ -54,6 +56,8 @@ function App() {
           <Route path="/sonet" element={<SONET/>} />
           <Route path="/ev6" element={<EV6/>} />
           <Route path="/vrshowroom" element={<VRSHOWROOM/>} />
+          <Route path="/testdrive" element={<Testdrive/>} />
+          <Route path="/bookonline" element={<Bookonline/>} />
           <Route path="/signup" element={<Signup/>} />
           <Route 
             path="/kiaaccount" 
