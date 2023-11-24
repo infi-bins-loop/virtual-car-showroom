@@ -22,17 +22,17 @@ const Footer = ({bottom}) =>{
                     <div className="links">
                         <div>
                             <h4 style={{textDecoration: 'underline',letterSpacing: 1, marginBottom: 10}}>Links</h4>
-                            <a href="/vrshowroom" style={{textDecoration: 'none'}}>About</a><br />
-                            <a href="" style={{textDecoration: 'none'}}>Book test drive</a><br />
-                            <a href="" style={{textDecoration: 'none'}}>Book online</a><br />
-                            <a href="" style={{textDecoration: 'none'}}>Contact</a>
+                            <a href="/vrshowroom" style={{textDecoration: 'none',color: 'black'}}>About</a><br />
+                            <a href="/testdrive" style={{textDecoration: 'none',color: 'black'}}>Book test drive</a><br />
+                            <a href="/bookonline" style={{textDecoration: 'none',color: 'black'}}>Book online</a><br />
+                            <a href="" style={{textDecoration: 'none',color: 'black'}}>Contact</a>
                         </div>
                         <div style={{marginLeft: 50}}>
                         <h4 style={{textDecoration: 'underline',letterSpacing: 1, marginBottom: 10}}>Cars</h4>
-                            <Link to='/seltos' style={{textDecoration: 'none'}}>Seltos</Link><br />
-                            <Link to='/carens'style={{textDecoration: 'none'}}>Carens</Link><br />
-                            <Link to='/sonet'style={{textDecoration: 'none'}}>Sonet</Link><br />
-                            <Link to='/ev6'style={{textDecoration: 'none'}}>EV6</Link>
+                            <Link to='/seltos' style={{textDecoration: 'none',color: 'black'}}>Seltos</Link><br />
+                            <Link to='/carens'style={{textDecoration: 'none',color: 'black'}}>Carens</Link><br />
+                            <Link to='/sonet'style={{textDecoration: 'none',color: 'black'}}>Sonet</Link><br />
+                            <Link to='/ev6'style={{textDecoration: 'none',color: 'black' }}>EV6</Link>
                         </div>
                         <div style={{marginLeft: 60}}>
                         <h4 style={{textDecoration: 'underline',letterSpacing: 1, marginBottom: 10}}>Legal</h4>

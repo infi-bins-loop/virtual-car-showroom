@@ -3,11 +3,11 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
     color: white;
     background-color: white;
-    border: 1px solid #d9d9d9;
 `;
 
 export const Content = styled.div`
     color: white;
+    margin-bottom: 2rem;
     .items{
         display: flex;
     }
@@ -20,6 +20,7 @@ export const Content = styled.div`
         margin-left: 35rem;
         display: flex;
         justify-content: space-between;
+        color: black;
     }
     @media screen and (max-width: 430px) {
         flex-direction: column;
