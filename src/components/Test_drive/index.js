@@ -28,10 +28,12 @@ const Testdrive = () =>{
                         <input type="text" id="name" placeholder="Enter your name" className="input"/>
                         <label htmlFor="phone" className="label">Phone No.:</label>
                         <input type="text" id="phone" placeholder="Enter your phone number" className="input"/>
+                        <label htmlFor="email" className="label">Email ID:</label>
+                        <input type="text" id="email" placeholder="Enter your email id" className="input"/>
                         <label htmlFor="address" className="label">Address:</label>
                         <textarea name="address" id="address" cols="20" rows="8" placeholder="Enter your address" className="input"></textarea>
                         <label htmlFor="state" className="label">Kia Dealer Place:</label>
-                        <select id="place" className="input">
+                        <select id="state" className="input">
                         <option value="">Select place</option>
                         <option value="andra">Andhra Pradesh</option>
                         <option value="arunachal">Arunachal Pradesh</option>

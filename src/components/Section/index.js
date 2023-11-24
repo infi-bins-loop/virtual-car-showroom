@@ -1,5 +1,6 @@
 import React from 'react'
 import { Wrapper,ContentTop,ContentMid,Content } from './section.style';
+import { Link } from 'react-router-dom';
 
 function Section({ title,desc,backgroundImg,btn1,btn2,btn3,btn4,link,arrow,range,speed,hp,top }) {
 
@@ -55,7 +56,7 @@ function Section({ title,desc,backgroundImg,btn1,btn2,btn3,btn4,link,arrow,range
                         </div>
                         }
                         <div className="order_btn">
-                            <button> Book online </button>
+                            <button><Link to='/bookonline' style={{textDecoration:'none',color:'black'}}>Book online</Link> </button>
                         </div>
                     </div>
                 </Content>

@@ -14,22 +14,23 @@ export const Wrapper = styled.div`
 export const Navbar = styled.div`
     padding-left: 50px;
     margin-top: 40px;
+    margin-right: 30px;
+    margin-left: 30px;
     width: 28vw;
+    background-color: white;
     a{
         text-decoration: none;
         font-weight: 400;
         font-size: 1.2rem;
         letter-spacing: 0.6px;
         cursor: pointer;
-        padding-left: 10px;
-        color: #5c5d61;
+        color: #141414;
         transition: color 250ms ease-in;
         :hover{
-            color: #141414;
+            color: #5c5d61;
         }
     }
     .row{
-        display: flex;
         align-items: center;
         padding: 15px 0px;
     }
@@ -38,15 +39,12 @@ export const Navbar = styled.div`
         margin-top: 4px;
     }
     .main{
-        border-radius: 50%;
-        padding: 0.5px 5px;
+        padding: 0.5px 4px;
         cursor: pointer;
+        display: flex;
     }
     .home{
-        background-color: rgba(90, 90, 90, 0.1);
-    }
-    .high a{
-        color: #141414;
+        background-color: grey;
     }
     @media screen and (max-width: 1150px){
         padding-left: 40px;
@@ -87,22 +85,14 @@ export const Content = styled.div`
         letter-spacing: 0.6px;
         padding: 20px 10px;
     }
-
     .box{
         width: 320px;
-        height: 220px;
+        height: 250px;
         border: 1px grey solid;
         border-radius: 15px;
         margin: 10px;
         display: flex;
         align-items: flex-end;
-    }
-    .box_fade{
-        width: 320px;
-        height: 220px;
-        border: 1px grey solid;
-        border-radius: 15px;
-        margin: 10px;
     }
 
     .box1{
@@ -118,14 +108,10 @@ export const Content = styled.div`
         background-size: cover;
     }
     .box3{
-        width: 318px;
-        height: 110px;
         background-image: url('/images/test.avif');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        border-top-right-radius: 15px;
-        border-top-left-radius: 15px;
     }
     .desc{
         height: 110px;
@@ -163,10 +149,7 @@ export const Content = styled.div`
             }
         }
     }
-    .fade{
-        height: 88px;
-        width: 318px;
-    }
+    
 
     @media screen and (max-width: 1150px){
         padding-right: 50px;

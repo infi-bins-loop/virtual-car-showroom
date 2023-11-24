@@ -6,7 +6,6 @@ import Header from "../Header";
 
 // Icons
 import HomeIcon from '@mui/icons-material/Home';
-import HistoryIcon from '@mui/icons-material/History';
 import LogoutIcon from '@mui/icons-material/Logout';
 
 import { Link, useNavigate } from "react-router-dom";
@@ -35,18 +34,18 @@ const Account = () =>{
         <Wrapper>
             <Navbar>
                 <div className="row" >
-                    <div className="main home">
+                    <div className="main">
                         <HomeIcon className="logo" />
                     </div>
-                    <div className="text high" >
+                    <div className="main high" >
                         <h2><a href="/kiaaccount">Dashboard</a></h2>
                     </div>
-                </div>
+                </div> 
                 <div className="row" onClick={SignOut}>
                     <div className="main">
                         <LogoutIcon className="logo"/>
                     </div>
-                    <div className="text">
+                    <div className="main high">
                         <h2><a href="/" >Sign Out</a></h2>
                     </div>
                 </div>
@@ -57,7 +56,7 @@ const Account = () =>{
                     <div className="box box1" >
                         <div className="desc" >
                             <h3>See Showroom</h3>
-                            <p>Experience the KIA showroom from your home.</p>
+                            <p>Experience the KIA showroom virtually.</p>
                             <Link to='/vrshowroom'>Check Out</Link>
                         </div>
                     </div>
@@ -69,12 +68,11 @@ const Account = () =>{
 
                         </div>
                     </div>
-                    <div className="box_fade" >
-                        <div className="box3" ></div>
-                        <div className="desc fade" >
+                    <div className="box box3" >
+                        <div className="desc" >
                             <h3>Want to drive and experience?</h3>
-                            <p>Book test drive today for your choice of model.</p>
-                            <Link to='/'>Book Now</Link>
+                            <p>Book test drive today!</p>
+                            <Link to='/testdrive'>Book Now</Link>
                         </div>
                     </div>
                 </div>
